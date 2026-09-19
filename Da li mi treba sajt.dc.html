@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<script>document.addEventListener("click", function (e) {
+  if (!document.body || !document.body.hasAttribute("data-dc-editor-on")) return;
+  var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+  if (a) { e.preventDefault(); }
+}, true);</script>
+<title>Da li vam treba veb-sajt? - Tijana Ganić, veb-dizajn</title>
+<meta name="description" content="Kada veb-sajt ima smisla za mali biznis, šta može da uradi za vas i zašto Instagram profil i preporuke same često nisu dovoljni da vas kupci pronađu.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://tijanadesigns.rs/da-li-mi-treba-sajt">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237D5A96'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23fff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Tijana Ganić - veb-dizajn">
+<meta property="og:title" content="Da li vam treba veb-sajt?">
+<meta property="og:description" content="Kada veb-sajt ima smisla za mali biznis, šta može da uradi za vas i zašto Instagram ili preporuke same često nisu dovoljne.">
+<meta property="og:url" content="https://tijanadesigns.rs/da-li-mi-treba-sajt">
+<meta property="og:image" content="https://tijanadesigns.rs/uploads/Artboard%201.2.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Da li vam treba veb-sajt?">
+<meta name="twitter:description" content="Kada veb-sajt ima smisla za mali biznis i šta može da uradi za vas.">
+<meta name="twitter:image" content="https://tijanadesigns.rs/uploads/Artboard%201.2.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Tijana Ganić - veb-dizajn","description":"Izrada veb-sajtova za male biznise u Srbiji.","url":"https://tijanadesigns.rs/","email":"tijanag314@gmail.com","image":"https://tijanadesigns.rs/uploads/Artboard%201.2.png","areaServed":{"@type":"Country","name":"Srbija"},"founder":{"@type":"Person","name":"Tijana Ganić","jobTitle":"Veb-dizajnerka"},"priceRange":"od 600 EUR","serviceType":"Izrada veb-sajtova"}
+</script>
+<script>
+(function(){
+  try { var t = localStorage.getItem("tg-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  if (window.__tgThemeInit) return;
+  window.__tgThemeInit = true;
+  document.addEventListener("click", function (e) {
+    var nb = e.target.closest && e.target.closest("[data-nav-toggle]");
+    if (nb) {
+      var hd = nb.closest("header");
+      if (hd) hd.setAttribute("data-nav-open", hd.getAttribute("data-nav-open") === "1" ? "0" : "1");
+      return;
+    }
+    var ml = e.target.closest && e.target.closest("[data-mobile-menu] a");
+    if (ml) { var hd2 = ml.closest("header"); if (hd2) hd2.setAttribute("data-nav-open", "0"); }
+    var b = e.target.closest && e.target.closest("[data-theme-toggle]");
+    if (!b) return;
+    var cur = document.documentElement.getAttribute("data-theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try { localStorage.setItem("tg-theme", next); } catch (e2) {}
+  });
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #FFFFFF; font-family: Manrope, sans-serif; color: #443052; -webkit-font-smoothing: antialiased; }
+  a { color: #7D5A96; text-decoration: none; }
+  a:hover { color: #25192E; }
+  * { box-sizing: border-box; }
+
+  :root {
+    --bg: #FFFFFF; --surface: #FFFFFF; --surface-alt: #F3EEF7; --line: #f0eaf4;
+    --ink: #25192E; --ink-muted: #443052; --ink-faint: #9a86a8;
+    --purple-ink: #7D5A96; --terracotta: #CC7D4E; --photo: #ddd6c7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #25192E; --surface: #2F2138; --surface-alt: #362941; --line: rgba(255,255,255,0.1);
+      --ink: #F0EAF4; --ink-muted: #B9A9C7; --ink-faint: #8F7C9C;
+      --purple-ink: #A98DBE; --photo: #3E362C;
+    }
+    :root:not([data-theme="light"]) body { background: var(--bg) !important; color: var(--ink-muted) !important; }
+    :root:not([data-theme="light"]) a { color: var(--purple-ink); }
+    :root:not([data-theme="light"]) a:hover { color: var(--ink); }
+    :root:not([data-theme="light"]) header, :root:not([data-theme="light"]) footer { background: var(--bg) !important; border-color: var(--line) !important; }
+    :root:not([data-theme="light"]) [data-surf="page"] { background: var(--bg) !important; }
+    :root:not([data-theme="light"]) [data-surf="card"] { background: var(--surface) !important; }
+    :root:not([data-theme="light"]) [data-surf="alt"], :root:not([data-theme="light"]) [data-surf="card-alt"] { background: var(--surface-alt) !important; }
+    :root:not([data-theme="light"]) [data-surf="photo"] { background: var(--photo) !important; }
+    :root:not([data-theme="light"]) [data-alt] { background: var(--bg) !important; }
+    :root:not([data-theme="light"]) [data-alt]:nth-of-type(odd) { background: var(--surface-alt) !important; }
+    :root:not([data-theme="light"]) [data-line="1"] { border-color: var(--line) !important; }
+    :root:not([data-theme="light"]) [data-ink="strong"] { color: var(--ink) !important; }
+    :root:not([data-theme="light"]) [data-ink="muted"] { color: var(--ink-muted) !important; }
+    :root:not([data-theme="light"]) [data-ink="faint"] { color: var(--ink-faint) !important; }
+    :root:not([data-theme="light"]) [data-ink="purple"] { color: var(--purple-ink) !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] { background: #7D5A96 !important; border-color: #7D5A96 !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-ink] { color: #FFFFFF !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="card"], :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="page"] { background: #FFFFFF !important; border-color: #FFFFFF !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="card"][data-ink], :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="page"][data-ink] { color: #7D5A96 !important; }
+    :root:not([data-theme="light"]) [data-theme-toggle] [data-icon="sun"] { display: block !important; }
+    :root:not([data-theme="light"]) [data-theme-toggle] [data-icon="moon"] { display: none !important; }
+    :root:not([data-theme="light"]) ::selection { background: #4A3557; color: #F0EAF4; }
+  }
+  :root[data-theme="dark"] {
+      --bg: #25192E; --surface: #2F2138; --surface-alt: #362941; --line: rgba(255,255,255,0.1);
+      --ink: #F0EAF4; --ink-muted: #B9A9C7; --ink-faint: #8F7C9C;
+      --purple-ink: #A98DBE; --photo: #3E362C;
+  }
+  :root[data-theme="dark"] body { background: var(--bg) !important; color: var(--ink-muted) !important; }
+  :root[data-theme="dark"] a { color: var(--purple-ink); }
+  :root[data-theme="dark"] a:hover { color: var(--ink); }
+  :root[data-theme="dark"] header, :root[data-theme="dark"] footer { background: var(--bg) !important; border-color: var(--line) !important; }
+  :root[data-theme="dark"] [data-surf="page"] { background: var(--bg) !important; }
+  :root[data-theme="dark"] [data-surf="card"] { background: var(--surface) !important; }
+  :root[data-theme="dark"] [data-surf="alt"], :root[data-theme="dark"] [data-surf="card-alt"] { background: var(--surface-alt) !important; }
+  :root[data-theme="dark"] [data-surf="photo"] { background: var(--photo) !important; }
+  :root[data-theme="dark"] [data-alt] { background: var(--bg) !important; }
+  :root[data-theme="dark"] [data-alt]:nth-of-type(odd) { background: var(--surface-alt) !important; }
+  :root[data-theme="dark"] [data-line="1"] { border-color: var(--line) !important; }
+  :root[data-theme="dark"] [data-ink="strong"] { color: var(--ink) !important; }
+  :root[data-theme="dark"] [data-ink="muted"] { color: var(--ink-muted) !important; }
+  :root[data-theme="dark"] [data-ink="faint"] { color: var(--ink-faint) !important; }
+  :root[data-theme="dark"] [data-ink="purple"] { color: var(--purple-ink) !important; }
+  :root[data-theme="dark"] [data-surf="brand"] { background: #7D5A96 !important; border-color: #7D5A96 !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-ink] { color: #FFFFFF !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-surf="card"], :root[data-theme="dark"] [data-surf="brand"] [data-surf="page"] { background: #FFFFFF !important; border-color: #FFFFFF !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-surf="card"][data-ink], :root[data-theme="dark"] [data-surf="brand"] [data-surf="page"][data-ink] { color: #7D5A96 !important; }
+  :root[data-theme="dark"] [data-theme-toggle] [data-icon="sun"] { display: block !important; }
+  :root[data-theme="dark"] [data-theme-toggle] [data-icon="moon"] { display: none !important; }
+  :root[data-theme="dark"] ::selection { background: #4A3557; color: #F0EAF4; }
+
+  ::selection { background: #E3D4EE; color: #25192E; }
+  .arrow-icon { transition: transform 0.25s ease; }
+  .arrow-icon-left { transition: transform 0.25s ease; }
+  a:hover .arrow-icon-left { transform: translateY(-0.04em) scaleX(-1) translateX(5px) !important; }
+  a:hover .arrow-icon { transform: translateY(-0.09em) rotate(-90deg) translateY(4px) !important; }
+  a:hover .arrow-icon-back { transform: translateY(-0.09em) rotate(90deg) translateY(4px) !important; }
+  [data-split] { grid-auto-rows: min-content; row-gap: 0 !important; }
+  [data-split] > * { grid-column: 2; min-width: 0; }
+  [data-split] > h2 { grid-column: 1; grid-row: 1 / span 50; margin: 0 !important; max-width: none !important; }
+  @media (max-width: 900px) {
+    [data-split] { display: block !important; }
+    [data-split] > h2 { margin: 0 0 24px 0 !important; }
+    [data-about] { grid-template-columns: 1fr !important; }
+    div[style*="minmax(0px, 427px)"], div[style*="minmax(0px, 480px)"], div[style*="minmax(0px, 300px)"], div[style*="minmax(0, 427px)"], div[style*="minmax(0, 480px)"], div[style*="minmax(0, 300px)"] { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 768px) {
+    [data-h1] { font-size: 34px !important; font-weight: 600 !important; width: auto !important; max-width: 100% !important; height: auto !important; }
+    [data-h1] + p { margin-top: 24px !important; }
+    [data-h2] { font-size: 28px !important; }
+    h3, [data-faq-q] { font-size: 22px !important; }
+    [data-h2] { font-weight: 600 !important; }
+    h3:not([data-faq-q]) { font-weight: 500 !important; }
+    [data-faq-q] { font-weight: 400 !important; }
+    p:not([data-small]), li, p[data-small][style*="font-size: 20px"] { font-size: 18px !important; }
+    p[data-small][style*="font-size: 16px"] { font-size: 16px !important; }
+    p[data-small][style*="font-weight: 700"] { font-size: 18px !important; }
+    span[style*="text-transform: uppercase"] { font-size: 12px !important; font-weight: 700 !important; }
+    p[style*="font-size: 28px"] { font-size: 20px !important; }
+    [data-sec] { padding-left: 20px !important; padding-right: 20px !important; }
+    [data-sec][style*="96px 24px"] { padding-top: 56px !important; padding-bottom: 56px !important; }
+    [data-hero] { padding-left: 20px !important; padding-right: 20px !important; }
+    [data-hero][style*="128px"] { padding-top: 56px !important; }
+    #kontakt > div { padding: 40px 24px !important; }
+    header > div { padding: 12px 20px !important; grid-template-columns: 1fr auto !important; gap: 12px 16px !important; justify-items: start; }
+    header > div > div:has(> a[href^="mailto:"]) { grid-row: 1 !important; grid-column: 2 !important; justify-self: end !important; }
+    header > div > div:has(> a[href^="mailto:"]) > a[href^="mailto:"], header > div > a[href^="mailto:"] { display: none !important; }
+    [data-nav] { grid-row: 2 !important; grid-column: 1 / -1 !important; flex-wrap: wrap !important; white-space: normal !important; justify-content: flex-start !important; gap: 18px !important; }
+    [data-grid], [data-about], [data-split] { grid-template-columns: 1fr !important; }
+    footer > div { flex-direction: column !important; align-items: flex-start !important; gap: 16px !important; }
+    [data-burger] { display: flex !important; grid-row: 1 !important; grid-column: 2 !important; justify-self: end !important; }
+    [data-nav], [data-nav-right] { display: none !important; }
+    header[data-nav-open="1"] [data-mobile-menu] { display: flex !important; }
+    [data-about] > div { width: 100% !important; max-width: 100% !important; height: auto !important; margin-left: auto !important; margin-right: auto !important; }
+    [data-about] > div:last-child { max-width: 360px !important; }
+    input, textarea, select { font-size: 16px !important; }
+    div:has(> svg[viewBox="0 0 746 759"]) { padding-top: 44px !important; padding-bottom: 44px !important; }
+    svg[viewBox="0 0 746 759"] { width: 44px !important; }
+    div[style*="gap: 14px"] > svg { width: 20px !important; height: 26px !important; margin: 1px -3.5px 0 3.5px !important; }
+  }
+  a, button { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+  a:hover, button:hover { transform: translateY(-2px); }
+  p a:hover, li a:hover, a[aria-label="Detalji paketa"]:hover { transform: none; }
+  header a[href^="mailto:"]:hover { transform: translateY(-2px); }
+  header div:has(> a[href^="mailto:"]) { transition: transform 0.25s ease; }
+  header div:has(> a[href^="mailto:"]):hover { transform: translateY(-2px); }
+  header div:has(> a[href^="mailto:"]) a:hover, header div:has(> a[href^="mailto:"]) button:hover { transform: none; }
+  div:has(> button[data-faq-q]) { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+  div:has(> button[data-faq-q]):hover { transform: translateY(-2px); }
+  div:has(> button[data-faq-q]):hover > button { transform: none; }
+</style>
+</helmet>
+
+<div style="max-width: 100%; overflow-x: clip;">
+
+  <header  data-surf="card" data-line="1" style="position: sticky; top: 0; z-index: 50; background: #FFFFFF; border-bottom: 1px solid #f0eaf4;">
+    <div style="max-width: 1148px; margin: 0 auto; padding: 16px 24px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px;">
+      <a href="Tijana Designs.dc.html"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 400; color: #25192E; justify-self: start;">Tijana Ganić</a>
+      <nav data-nav="1" style="display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: nowrap; white-space: nowrap;">
+        <a href="Tijana Designs.dc.html#radovi"  data-ink="muted" style="font-size: 16px; color: #443052;">Radovi</a>
+        <a href="Cene.dc.html"  data-ink="muted" style="font-size: 16px; color: #443052;">Usluge</a>
+        <a href="Tijana Designs.dc.html#kontakt"  data-ink="muted" style="font-size: 16px; color: #443052;">Kontakt</a>
+      </nav>
+      <button type="button" data-nav-toggle="1" data-burger="1" aria-label="Meni" data-line="1" data-ink="muted" style="display: none; align-items: center; justify-content: center; width: 40px; height: 40px; background: transparent; border: 1px solid #f0eaf4; border-radius: 8px; cursor: pointer; color: #443052;">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 4.5h14M2 9h14M2 13.5h14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg>
+      </button>
+      <div data-mobile-menu="1" style="display: none; grid-row: 2; grid-column: 1 / -1; flex-direction: column; align-items: flex-start; gap: 4px; padding-top: 8px;">
+        <a href="Tijana Designs.dc.html#radovi"  data-ink="muted" style="font-size: 18px; padding: 8px 0; color: #443052;">Radovi</a>
+        <a href="Cene.dc.html"  data-ink="muted" style="font-size: 18px; padding: 8px 0; color: #443052;">Usluge</a>
+        <a href="Tijana Designs.dc.html#kontakt"  data-ink="muted" style="font-size: 18px; padding: 8px 0; color: #443052;">Kontakt</a>
+        <button type="button" data-theme-toggle="1" aria-label="Promeni svetli/tamni prikaz" title="Svetli / tamni prikaz" data-line="1" data-ink="muted" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; border: 1px solid #f0eaf4; border-radius: 8px; cursor: pointer; flex: none; color: #443052;" style-hover="background: #F3EEF7; border-color: #7D5A96;">
+          <svg data-icon="moon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="display: block;"><path d="M13.5 9.6A5.6 5.6 0 0 1 6.4 2.5a5.6 5.6 0 1 0 7.1 7.1Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path></svg>
+          <svg data-icon="sun" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="display: none;"><circle cx="8" cy="8" r="3.1" stroke="currentColor" stroke-width="1.2"></circle><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+      <div data-nav-right="1" style="display: flex; align-items: center; gap: 8px; justify-self: end;">
+        <a href="mailto:tijanag314@gmail.com"  data-ink="faint" style="font-size: 16px; color: #9a86a8;">tijanag314@gmail.com</a>
+        <button type="button" data-theme-toggle="1" aria-label="Promeni svetli/tamni prikaz" title="Svetli / tamni prikaz" data-line="1" data-ink="muted" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; border: 1px solid #f0eaf4; border-radius: 8px; cursor: pointer; flex: none; color: #443052;" style-hover="background: #F3EEF7; border-color: #7D5A96;">
+          <svg data-icon="moon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="display: block;"><path d="M13.5 9.6A5.6 5.6 0 0 1 6.4 2.5a5.6 5.6 0 1 0 7.1 7.1Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path></svg>
+          <svg data-icon="sun" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="display: none;"><circle cx="8" cy="8" r="3.1" stroke="currentColor" stroke-width="1.2"></circle><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section data-hero="1" style="padding: 64px 24px 32px 24px;">
+      <div data-hero-in="1" style="max-width: 1100px; margin: 0 auto;">
+                <span style="display: block; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #CC7D4E; margin-bottom: 16px;">Vodič</span>
+        <h1 data-h1="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 44px; line-height: 1.2; letter-spacing: -0.02em; font-weight: 600; color: #25192E; margin: 0; max-width: 24ch; text-wrap: balance">Da li vam treba veb-sajt?</h1>
+      </div>
+    </section>
+
+    <section data-sec="1"  data-surf="page" style="padding: 0 24px 96px 24px; background: #FFFFFF;">
+      <div style="max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 72px; align-items: start; text-align: left;">
+        <div>
+          <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0 0 16px 0;">Niko vam ne može garantovati da ćete imati više upita ili prodaje zbog veb-sajta, ali ako vam je to cilj, veb-sajt je jako važan korak.</p>
+          <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0;">Sajt treba da pokaže šta nudite, kome je to namenjeno i zašto bi neko izabrao baš vas.</p>
+          <div style="margin: 32px 0 0 0; font-weight: 500">
+            <div style="display: flex; gap: 14px; align-items: flex-start; margin-bottom: 32px;"><svg viewBox="0 0 1086.000000 1448.000000" aria-hidden="true" style="display: block; flex: none; width: 26px; height: 35px; margin: -1px -4.5px 0 4.5px; transform: rotate(-90deg);"><g transform="translate(0.000000,1448.000000) scale(0.100000,-0.100000)" fill="#CC7D4E" stroke="none"><path d="M5317 13531 c-88 -58 -237 -356 -336 -675 -73 -236 -124 -720 -141 -1346 -27 -982 -7 -2374 70 -4960 33 -1108 60 -2044 59 -2080 l0 -65 -25 70 c-93 266 -419 756 -798 1195 -130 152 -451 469 -596 589 -537 448 -1027 705 -1732 910 -470 137 -826 141 -1026 12 -49 -31 -109 -88 -101 -95 7 -7 300 -165 539 -291 142 -75 271 -152 350 -208 886 -635 1585 -1351 2150 -2203 198 -298 359 -583 555 -979 118 -241 190 -394 475 -1020 72 -159 210 -449 305 -642 152 -309 176 -353 196 -353 33 0 122 96 200 215 153 233 241 409 484 970 384 882 904 1747 1444 2400 221 266 544 606 796 835 500 454 1011 813 1570 1102 115 60 219 118 230 129 18 18 19 22 5 45 -27 48 -89 83 -165 94 -119 18 -439 24 -575 11 -685 -67 -1351 -374 -2025 -935 -154 -129 -491 -465 -627 -626 -257 -305 -387 -498 -621 -920 -93 -168 -184 -333 -204 -368 -19 -35 -36 -62 -38 -60 -1 2 1 116 6 253 11 362 27 1081 44 2035 24 1338 38 1869 70 2655 38 936 43 1580 15 2040 -25 410 -85 967 -136 1265 -57 337 -154 674 -252 884 -64 134 -100 160 -165 117z"></path></g></svg><p data-small="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.35; font-weight: 600; color: #25192E; max-width: 40ch; min-width: 0; overflow-wrap: break-word; margin: 0">Sajt je alat koji radi za vas 24/7</p></div>
+            <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0; font-weight: 400">Izradu sajta platite jednom, a on nastavlja da radi dok vi spavate, dok ste na odmoru ili provodite vreme sa porodicom.</p>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 56px;">
+          <div>
+            <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.3; font-weight: 500; color: #25192E; margin: 0 0 12px 0">Zašto mi treba sajt?</h2>
+            <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0;">Zato što ljudima daje jedno mesto na kom mogu da upoznaju vas i ono što nudite, pronađu važne informacije i odluče da li im vaš pristup, usluga ili proizvod odgovara.</p>
+          </div>
+          <div>
+            <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.3; font-weight: 500; color: #25192E; margin: 0 0 12px 0">Zašto je važan sajt?</h2>
+            <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0;">Zato što ne morate svaki put iznova da objašnjavate iste stvari, a ljudi koji vas pronađu ne moraju da čekaju odgovor da bi saznali kako radite, šta nudite i kako da naprave sledeći korak.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-sec="1"  data-surf="alt" style="padding: 96px 24px; background: #F3EEF7;">
+      <div style="max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 48px; align-items: start;">
+        <div>
+          <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.2; font-weight: 500; color: #25192E; margin: 0 0 24px 0; max-width: 32ch">Imate sajt, ali ne znate koliko klijenata vam dovodi?</h2>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0;"><b>Instalirajte analitiku</b> i pogledajte posle mesec dana: koliko ljudi je posetilo sajt, koje stranice su gledali i koliko njih je kupilo proizvod, zakazalo uslugu ili vam se javilo.</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0;">Mnogi odustanu pre nego što naprave sledeći korak zato što nisu dobili sve informacije na tanjiru. Nisu bili sigurni da li je to pravi izbor za njih. Nisu znali gde da kliknu.<br><br>Ostali su zbunjeni, vratili se na Gugl i potražili rešenje na drugom mestu.</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0;">Nikada <b>nećete saznati</b> koliko je ljudi tako odustalo. Niko vas neće pozvati da vam kaže: „Bio sam na vašem sajtu, nisam pronašao ono što mi je trebalo i otišao sam dalje.“</p>
+          <div  data-surf="card" data-line="1" style="background: #FFFFFF; border: 1px solid #f0eaf4; border-radius: 8px; padding: 32px; box-shadow: 0 20px 40px -16px rgba(37,25,46,0.18); margin-top: 48px;">
+          <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.2; font-weight: 500; color: #25192E; margin: 0 0 24px 0; max-width: 32ch">Da li je veb-sajt dovoljan ako želim više klijenata ili kupaca?</h2>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0;">Ne. Dobar sajt može da pomogne ljudima koji ga posete da razumeju ono što nudite, steknu poverenje i lakše odluče da naprave sledeći korak.</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0;">Ali neko prvo mora da dovede prave ljude (ciljnu grupu) na sajt. Za to su potrebni marketing, sadržaj, preporuke, oglasi, društvene mreže, SEO ili drugi kanali preko kojih vas vaša ciljna grupa pronalazi.</p>
+        <div style="margin: 32px 0 0 0; font-weight: 500">
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><svg viewBox="0 0 1086.000000 1448.000000" aria-hidden="true" style="display: block; flex: none; width: 26px; height: 35px; margin: -1px -4.5px 0 4.5px; transform: rotate(-90deg);"><g transform="translate(0.000000,1448.000000) scale(0.100000,-0.100000)" fill="#CC7D4E" stroke="none"><path d="M5317 13531 c-88 -58 -237 -356 -336 -675 -73 -236 -124 -720 -141 -1346 -27 -982 -7 -2374 70 -4960 33 -1108 60 -2044 59 -2080 l0 -65 -25 70 c-93 266 -419 756 -798 1195 -130 152 -451 469 -596 589 -537 448 -1027 705 -1732 910 -470 137 -826 141 -1026 12 -49 -31 -109 -88 -101 -95 7 -7 300 -165 539 -291 142 -75 271 -152 350 -208 886 -635 1585 -1351 2150 -2203 198 -298 359 -583 555 -979 118 -241 190 -394 475 -1020 72 -159 210 -449 305 -642 152 -309 176 -353 196 -353 33 0 122 96 200 215 153 233 241 409 484 970 384 882 904 1747 1444 2400 221 266 544 606 796 835 500 454 1011 813 1570 1102 115 60 219 118 230 129 18 18 19 22 5 45 -27 48 -89 83 -165 94 -119 18 -439 24 -575 11 -685 -67 -1351 -374 -2025 -935 -154 -129 -491 -465 -627 -626 -257 -305 -387 -498 -621 -920 -93 -168 -184 -333 -204 -368 -19 -35 -36 -62 -38 -60 -1 2 1 116 6 253 11 362 27 1081 44 2035 24 1338 38 1869 70 2655 38 936 43 1580 15 2040 -25 410 -85 967 -136 1265 -57 337 -154 674 -252 884 -64 134 -100 160 -165 117z"></path></g></svg><p  data-ink="strong" style="font-family: Petrona; font-size: 24px; line-height: 1.35; font-weight: 600; color: #25192E; max-width: 40ch; min-width: 0; overflow-wrap: break-word; margin: 0">Drugi kanali dovode ljude do sajta. Dobar sajt im pomaže da odluče da li je ono što nudite pravi izbor za njih.</p></div>
+        </div>
+          </div>
+        </div>
+        <div>
+          <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.2; font-weight: 500; color: #25192E; margin: 0 0 24px 0; max-width: 32ch">Ljudi vam dolaze samo preko preporuke?</h2>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0; font-weight: 400">Nemate ni Instagram ni sajt, a posla ipak imate jer vas ljudi preporučuju. Onda se možda pitate: zašto mi uopšte treba sajt?</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0; font-weight: 400">Preporuka može da dovede osobu do vas, ali to ne znači da će vas odmah kontaktirati. Vrlo često će potražiti vaše ime ili brend na Guglu, pogledati kako radite, pročitati vašu priču ili proveriti šta tačno nudite.</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0; font-weight: 400">Ako tamo ne pronađe dovoljno informacija, možda nikada nećete saznati da je razmišljala o kupovini.</p>
+          <div  data-surf="card" data-line="1" style="background: #FFFFFF; border: 1px solid #f0eaf4; border-radius: 8px; padding: 32px; box-shadow: 0 20px 40px -16px rgba(37,25,46,0.18); margin-top: 48px;">
+          <h2 data-h2="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 32px; line-height: 1.2; font-weight: 500; color: #25192E; margin: 0 0 24px 0; max-width: 32ch">Da li mi treba veb-sajt ako imam Instagram?</h2>
+
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0;">Stalno morate da smišljate nove objave, ljudi vas zovu ili šalju poruke sa pitanjima o vašim proizvodima ili uslugama, a mnogi od njih na kraju ništa i ne kupe. <b>Koliko vremena</b> dnevno provedete odgovarajući na ista pitanja?</p>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0 0 16px 0; position: relative">Instagram je odlično mesto da ljudi otkriju vaš rad, prate ono što stvarate i upoznaju vas kroz sadržaj. Ali, informacije se brzo izgube među objavama.</p>
+        
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0;">Na sajtu su važne informacije <b>organizovane </b>na jednom mestu. Posetilac može svojim tempom da pregleda sadržaj, prvo pronađe ono što mu je najvažnije, a zatim se vrati na ostale informacije.</p>
+        <div style="margin: 32px 0 32px 0; font-weight: 500">
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><svg viewBox="0 0 1086.000000 1448.000000" aria-hidden="true" style="display: block; flex: none; width: 26px; height: 35px; margin: -1px -4.5px 0 4.5px; transform: rotate(-90deg);"><g transform="translate(0.000000,1448.000000) scale(0.100000,-0.100000)" fill="#CC7D4E" stroke="none"><path d="M5317 13531 c-88 -58 -237 -356 -336 -675 -73 -236 -124 -720 -141 -1346 -27 -982 -7 -2374 70 -4960 33 -1108 60 -2044 59 -2080 l0 -65 -25 70 c-93 266 -419 756 -798 1195 -130 152 -451 469 -596 589 -537 448 -1027 705 -1732 910 -470 137 -826 141 -1026 12 -49 -31 -109 -88 -101 -95 7 -7 300 -165 539 -291 142 -75 271 -152 350 -208 886 -635 1585 -1351 2150 -2203 198 -298 359 -583 555 -979 118 -241 190 -394 475 -1020 72 -159 210 -449 305 -642 152 -309 176 -353 196 -353 33 0 122 96 200 215 153 233 241 409 484 970 384 882 904 1747 1444 2400 221 266 544 606 796 835 500 454 1011 813 1570 1102 115 60 219 118 230 129 18 18 19 22 5 45 -27 48 -89 83 -165 94 -119 18 -439 24 -575 11 -685 -67 -1351 -374 -2025 -935 -154 -129 -491 -465 -627 -626 -257 -305 -387 -498 -621 -920 -93 -168 -184 -333 -204 -368 -19 -35 -36 -62 -38 -60 -1 2 1 116 6 253 11 362 27 1081 44 2035 24 1338 38 1869 70 2655 38 936 43 1580 15 2040 -25 410 -85 967 -136 1265 -57 337 -154 674 -252 884 -64 134 -100 160 -165 117z"></path></g></svg><p  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.35; font-weight: 600; color: #25192E; max-width: 40ch; min-width: 0; overflow-wrap: break-word; margin: 0">Ne morate da birate između Instagrama i veb-sajta. Najbolje rade zajedno.</p></div>
+        </div>
+        <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 72ch; margin: 0;">Sajt vam daje i mnogo više prostora za <a href="Cene.dc.html#osnovna-seo"><b>SEO</b></a>. Možete napraviti zasebne stranice za različite usluge, proizvode i teme, odgovoriti na pitanja koja ljudi pretražuju i pomoći Guglu da bolje razume čime se bavite.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section style="padding: 56px 24px 24px 24px;">
+    <div style="max-width: 1100px; margin: 0 auto;"><a href="Tijana Designs.dc.html#vodic"  data-ink="purple" style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; color: #7D5A96; text-decoration: none;"><svg class="arrow-icon-left" width="0.81em" height="1.15em" viewBox="0 0 370 527" aria-hidden="true" style="display: inline-block; vertical-align: middle; flex: none; transform: translateY(-0.04em) scaleX(-1);"><g transform="translate(0,527) rotate(-90) translate(-283,-638) translate(0,1448) scale(0.1,-0.1)" fill="#7D5A96" stroke="none"><path d="M2951 7969 c-35 -5 -89 -20 -120 -32 -94 -37 -86 -46 149 -167 221 -114 382 -216 526 -332 385 -312 751 -761 1061 -1303 94 -163 255 -467 305 -575 20 -41 60 -127 91 -190 134 -280 225 -484 358 -801 72 -174 90 -209 103 -209 15 0 15 0 126 265 105 251 182 428 220 510 16 33 76 161 135 285 348 739 661 1223 1067 1653 328 347 658 581 1056 749 48 21 62 31 62 48 0 47 -170 92 -350 93 -481 2 -1035 -272 -1485 -734 -315 -323 -553 -690 -780 -1201 -26 -60 -49 -108 -50 -108 -2 0 -18 35 -35 78 -61 147 -227 478 -305 607 -280 465 -626 838 -990 1065 -213 133 -430 225 -654 276 -122 28 -380 40 -490 23z"></path></g></svg><span>Nazad na početnu</span></a></div>
+  </section>
+
+  <section id="kontakt" data-sec="1" style="padding: 32px 24px 96px 24px;">
+    <div  data-surf="brand" style="max-width: 1100px; margin: 0 auto; background: #7D5A96; border-radius: 8px; padding: 96px 48px; text-align: center;">
+      <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF;">Kontakt</span>
+      <h2 data-h2="1" style="font-family: Petrona, Georgia, serif; font-size: 44px; line-height: 1.2; font-weight: 600; color: #FFFFFF; margin: 16px 0 16px 0;">Razmišljate o novom veb-sajtu?</h2>
+      <p style="font-size: 18px; line-height: 1.9; font-family: Manrope; color: #FFFFFF; max-width: 65ch; margin: 0 auto 24px auto">Napišite čime se bavite i koji vam je cilj. Odgovoriću vam<br>šta&nbsp;<span data-start="521" data-end="595" style="">bi projekat okvirno obuhvatao, koliko bi trajao i koliko bi koštao</span>.</p>
+      
+      <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+        <a href="Kontakt.dc.html"  data-surf="page" data-ink="purple" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 400; color: #7D5A96; background: #FFFFFF; border: 1px solid #FFFFFF; border-radius: 999px; padding: 16px 32px; white-space: nowrap; box-shadow: 0 8px 18px -8px rgba(37,25,46,0.22);" style-hover="background: #F3EEF7; border-color: #F3EEF7;">Pošaljite upit</a>
+        <button type="button" onClick="{{ copyMail }}" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-family: Manrope, sans-serif; font-size: 16px; font-weight: 400; color: #FFFFFF; background: transparent; border: 1px solid #FFFFFF; border-radius: 999px; padding: 16px 32px; cursor: pointer; white-space: nowrap; box-shadow: 0 8px 18px -8px rgba(37,25,46,0.22);" style-hover="background: #66447E;"><span style="{{ ctaIdleStyle }}">Kopirajte imejl</span><span style="{{ ctaDoneStyle }}">Imejl kopiran</span></button>
+      </div>
+    </div>
+  </section>
+  </main>
+
+
+  <footer  data-line="1" style="border-top: 1px solid #f0eaf4; padding: 48px 24px;">
+    <div style="max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+      <span  data-ink="muted" style="font-family: Manrope; font-size: 16px; font-weight: 400; color: #443052">© 2026 Tijana Ganić. Sva prava zadržana</span>
+      <div style="display: flex; align-items: center; gap: 40px;">
+        
+        <a href="https://www.instagram.com/tijana.designs/" target="_blank" rel="noreferrer"  data-ink="muted" style="font-size: 16px; color: #443052;">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { copied: false };
+  copy() {
+    const mail = "tijanag314@gmail.com";
+    if (navigator.clipboard) navigator.clipboard.writeText(mail);
+    this.setState({ copied: true });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ copied: false }), 1800);
+  }
+  renderVals() {
+    return {
+      copyMail: () => this.copy(),
+      ctaIdleStyle: { display: this.state.copied ? "none" : "inline" },
+      ctaDoneStyle: { display: this.state.copied ? "inline" : "none" }
+    };
+  }
+}
+</script>
+</body>
+</html>

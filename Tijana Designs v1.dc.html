@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Tijana Ganić - izrada veb-sajtova za male biznise u Srbiji</title>
+<meta name="description" content="Veb-dizajnerka Tijana Ganić pravi brze i pregledne sajtove za male srpske biznise. Paketi od 600 evra, izrada za 4 do 14 dana.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://tijanadesigns.rs/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237D5A96'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23fff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Tijana Ganić - veb-dizajn">
+<meta property="og:title" content="Tijana Ganić - izrada veb-sajtova za male biznise u Srbiji">
+<meta property="og:description" content="Sajtovi koji odgovaraju na pitanja vaših kupaca i rade za vas 24/7. Paketi Start, Biznis i Biznis plus.">
+<meta property="og:url" content="https://tijanadesigns.rs/">
+<meta property="og:image" content="https://tijanadesigns.rs/uploads/Artboard%201.2.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tijana Ganić - izrada veb-sajtova za male biznise u Srbiji">
+<meta name="twitter:description" content="Sajtovi koji odgovaraju na pitanja vaših kupaca i rade za vas 24/7.">
+<meta name="twitter:image" content="https://tijanadesigns.rs/uploads/Artboard%201.2.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Tijana Ganić - veb-dizajn","description":"Izrada veb-sajtova za male biznise u Srbiji.","url":"https://tijanadesigns.rs/","email":"tijanag314@gmail.com","image":"https://tijanadesigns.rs/uploads/Artboard%201.2.png","areaServed":{"@type":"Country","name":"Srbija"},"founder":{"@type":"Person","name":"Tijana Ganić","jobTitle":"Veb-dizajnerka"},"priceRange":"od 600 EUR","serviceType":"Izrada veb-sajtova","makesOffer":[{"@type":"Offer","name":"Start","price":"600","priceCurrency":"EUR"},{"@type":"Offer","name":"Biznis","price":"950","priceCurrency":"EUR"},{"@type":"Offer","name":"Biznis plus","price":"1300","priceCurrency":"EUR"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Koliko traje izrada?","acceptedAnswer":{"@type":"Answer","text":"Od 4 do 14 dana, zavisno od broja stranica i od toga koliko brzo dobijem materijal od vas."}},{"@type":"Question","name":"Ko piše tekst?","acceptedAnswer":{"@type":"Answer","text":"U paketu Start tekst pišete vi, a ja mogu da ga napišem za dodatnih 100 evra. U paketima Biznis i Biznis plus pisanje teksta je uključeno."}},{"@type":"Question","name":"Mogu li sama da menjam sadržaj?","acceptedAnswer":{"@type":"Answer","text":"Možete. Kad sajt ode online, snimim vam kratak video u kom vidite kako da promenite tekst, sliku ili cenu."}},{"@type":"Question","name":"Šta ako mi treba izmena posle predaje?","acceptedAnswer":{"@type":"Answer","text":"Prvih 14 dana popravljam sve što ne radi kako treba, bez naplate. Kasnije izmene dogovaramo po satu ili po obimu."}},{"@type":"Question","name":"Šta se dešava nakon što sajt bude objavljen?","acceptedAnswer":{"@type":"Answer","text":"Prvih 30 dana proveravam da li sve radi kako treba i bez dodatne naplate ispravljam eventualne tehničke probleme. Kasnije, ako vašem biznisu zatrebaju nove stranice, sadržaj ili dodatne mogućnosti, sajt možemo da proširimo."}},{"@type":"Question","name":"Da li radite i sa postojećim sajtovima?","acceptedAnswer":{"@type":"Answer","text":"Da. Ako već imate sajt, prvo mogu da procenim šta vredi zadržati, a šta bi trebalo promeniti. Ako redizajn postojećeg sajta ima smisla, možemo krenuti od njega. Ako je bolje napraviti novi, objasniću vam zašto i predložiti rešenje."}}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  :root { --h-font: Petrona, Georgia, serif; --h1-weight: 400; --h2-weight: 400; --h3-weight: 400; }
+  body { margin: 0; background: #FFFFFF; font-family: Manrope, sans-serif; color: #443052; -webkit-font-smoothing: antialiased; }
+  a { color: #7D5A96; text-decoration: none; }
+  a:hover { color: #25192E; }
+  * { box-sizing: border-box; }
+  ::selection { background: #E3D4EE; color: #25192E; }
+  @media (max-width: 768px) {
+    [data-h1] { font-size: 40px; }
+    [data-h2] { font-size: 24px; }
+    [data-sec] { padding-top: 64px; padding-bottom: 64px; }
+    [data-hero] { padding-top: 64px; padding-bottom: 64px; }
+    header > div { grid-template-columns: 1fr !important; justify-items: start; }
+    [data-nav] { flex-wrap: wrap !important; justify-content: flex-start !important; }
+  }
+</style>
+</helmet>
+
+<div style="{{ rootStyle }}">
+
+  <header style="position: sticky; top: 0; z-index: 50; background: #FFFFFF; border-bottom: 1px solid #E6DCEA;">
+    <div style="max-width: 1148px; margin: 0 auto; padding: 16px 24px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px;">
+      <a href="#vrh" style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 400; color: #25192E; justify-self: start;">Tijana Ganić</a>
+      <nav data-nav="1" style="display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: nowrap; white-space: nowrap;">
+        <a href="#radovi" style="font-size: 16px; color: #443052;">Radovi</a>
+        
+        <a href="Cene.dc.html" style="font-size: 16px; color: #443052;">Usluge</a>
+        
+        <a href="#kontakt" style="font-size: 16px; color: #443052;">Kontakt</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 8px; justify-self: end;">
+        <a href="mailto:tijanag314@gmail.com" style="font-size: 16px; color: #443052;">tijanag314@gmail.com</a>
+        <button type="button" onClick="{{ copyMail }}" aria-label="Kopiraj mejl adresu" title="{{ copyLabel }}" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; border: 1px solid #E6DCEA; border-radius: 8px; cursor: pointer; flex: none;" style-hover="background: #F3EEF7; border-color: #7D5A96;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="2" stroke="#7D5A96" stroke-width="1.2"></rect><path d="M10.5 3.5A1.5 1.5 0 0 0 9 2H4a2 2 0 0 0-2 2v5a1.5 1.5 0 0 0 1.5 1.5" stroke="#7D5A96" stroke-width="1.2" fill="none"></path></svg>
+        </button>
+        <span style="{{ copiedStyle }}">Kopirano</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section id="vrh" data-hero="1" style="padding: 64px 24px 128px 24px;">
+    <div style="max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 48px; align-items: center;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 24px;">
+          
+          <span style="display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 999px; background: #E3D4EE; flex: none;">
+            <span style="width: 8px; height: 8px; border-radius: 999px; background: #7D5A96;"></span>
+          </span>
+          <span style="font-size: 16px; font-weight: 600; letter-spacing: 0; text-transform: none; color: #7D5A96">Slobodna za 2 projekta</span>
+        </div>
+        <h1 data-h1="1" style="color: #25192E; font-family: Petrona, Georgia, serif; font-size: 48px; line-height: 1.22; letter-spacing: -0.02em; margin: 0 0 32px 0; font-weight: 400; text-wrap: balance">Pravim veb sajtove za male srpske biznise koji žele da izgledaju svetski.</h1>
+        <p style="font-size: 16px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 40px 0;"><span style="color: rgb(90, 69, 82); font-family: Manrope, system-ui, sans-serif; font-size: 18px">Pokažite kvalitet svog rada, izgradite poverenje i pretvorite posetioce u klijente. Dobro osmišljen sajt radi za vas 24/7.</span></p>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="#kontakt" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #FFFFFF; background: #7D5A96; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #66447E; border-color: #66447E;">Besplatna procena</a>
+          <a href="#radovi" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #7D5A96; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #F3EEF7;">Zakažite razgovor bez obaveze</a>
+        </div>
+      </div>
+      <div style="background: #F3EEF7; border: 1px solid #E6DCEA; border-radius: 8px; aspect-ratio: 4 / 5; overflow: hidden;">
+        <img src="slike/tijana-hero.webp" alt="Tijana Ganić, veb-dizajnerka iz Srbije" fetchpriority="high" decoding="async" width="1100" height="1670" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;">
+      </div>
+    </div>
+  </section>
+
+  <section id="radovi" data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+      
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 48px 0;">Odabrani radovi</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 32px;">
+        <article style="background: #F3EEF7; border: 1px solid #E6DCEA; border-radius: 8px; padding: 16px;">
+          <div style="background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; text-align: center; padding: 16px;">
+            <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Snimak sajta - salon</span>
+          </div>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 0 0 16px 0;">Psihoterapeutkinja Nikolina</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0;">Termini se sada zakazuju preko sajta, pa Vera ne odgovara na iste poruke svako veče.</p>
+        </article>
+        <article style="background: #F3EEF7; border: 1px solid #E6DCEA; border-radius: 8px; padding: 16px;">
+          <div style="background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; text-align: center; padding: 16px;">
+            <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Snimak sajta - stolarija</span>
+          </div>
+          <h3 style="font-size: 24px; line-height: 1.3; margin: 0px 0px 16px; font-family: Petrona, Georgia, serif; font-weight: 500; color: #25192E">Psihoterapeutkinja Marijana</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0;">Umesto poruke "pošaljite slike radova", ljudi sada zovu sa konkretnim pitanjem o ceni.</p>
+        </article>
+        <article style="background: #F3EEF7; border: 1px solid #E6DCEA; border-radius: 8px; padding: 16px;">
+          <div style="background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; text-align: center; padding: 16px;">
+            <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Snimak sajta - nutricionista</span>
+          </div>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 0 0 16px 0;">Nutricionistkinja Jelena</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0;">Stranica o programu ishrane odgovara na pitanja pre razgovora, pa prvi poziv počinje od dogovora.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="o-meni" data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 48px; align-items: start;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+          
+          <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">O meni</span>
+        </div>
+        <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 24px 0;">Kreativna duša, analitički um</h2>
+        <p style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 16px 0">Devojčica koja je nekad bila „previše osetljiva” danas je veb-dizajnerka koja razume potrebe svojih klijenata čak i kada oni ne znaju kako da ih formulišu.</p>
+        <p style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 16px 0">Studentkinja biohemije koja je odbila poziciju asistenta i izabrala dizajn danas ume da iz gomile informacija izdvoji ono što je za vaše kupce zaista važno.</p>
+        <p style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 16px 0">Sve veštine koje sam usavršila tokom studija danas primenjujem u dizajnu - istraživanje literature, analitičko razmišljanje, izvođenje zaključaka na osnovu podataka.<br><br><b>Osetljivost mi pomaže da razumem ljude, analitičnost da prepoznam suštinu problema, a kreativnost da pronađem rešenje.</b></p>
+        <p style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 0 0">Verujte mi, nauka i dizajn nisu toliko različiti koliko se na prvi pogled čini :)</p>
+        
+        
+      </div>
+      <div>
+        <div style="position: relative; width: 100%; max-width: 427px; aspect-ratio: 1 / 1; margin-bottom: 24px;">
+          <div style="{{ s0 }}"><img loading="lazy" decoding="async" src="slike/heklanje.jpg" alt="Heklanje" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s1 }}"><img loading="lazy" decoding="async" src="slike/klavir.jpg" alt="Klavir" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s2 }}"><img loading="lazy" decoding="async" src="slike/macevanje.jpg" alt="Mačevanje" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s3 }}"><img loading="lazy" decoding="async" src="slike/mac1.webp" alt="Mač u izradi" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s4 }}"><img loading="lazy" decoding="async" src="slike/mac2.jpg" alt="Gotov mač" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s5 }}"><img loading="lazy" decoding="async" src="slike/iskustvo.jpg" alt="Iskustvo" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s6 }}"><img loading="lazy" decoding="async" src="slike/vijetnam.jpg" alt="Vijetnam" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+          <div style="{{ s7 }}"><img loading="lazy" decoding="async" src="slike/macka.jpg" alt="Mačka na laptopu" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 8px; display: block;"></div>
+        </div>
+        <div style="margin: 0 0 16px 0; min-height: 48px;">
+          <p style="{{ c0 }}">Kreativnost i strpljenje bili su deo mene mnogo pre dizajna.</p>
+          <p style="{{ c1 }}">Kako regulišem osećanja.</p>
+          <p style="{{ c2 }}">Kako sam naučila da izbistrim um i fokusiram se na ono što je u tom trenutku prioritet.</p>
+          <p style="{{ c3 }}">Moj rad na koji sam posebno ponosna.</p>
+          <p style="{{ c4 }}">Mač koji sam napravila svojim rukama.</p>
+          <p style="{{ c5 }}">Iskustvo koje me je najviše promenilo?</p>
+          <p style="{{ c6 }}">Tri meseca studentkse razmene u Vijentamu.</p>
+          <p style="{{ c7 }}">Fića toliko voli moje radove da se mazi sa njima.</p>
+        </div>
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <button type="button" onClick="{{ prev }}" aria-label="Prethodna slika" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; cursor: pointer;" style-hover="background: #F3EEF7;">
+            <svg width="24" height="8" viewBox="0 0 24 8" fill="none" aria-hidden="true"><path d="M24 4H3M6.5 1L3 4l3.5 3" stroke="#7D5A96" stroke-width="1.2" fill="none"></path></svg>
+          </button>
+          <button type="button" onClick="{{ next }}" aria-label="Sledeća slika" style="display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; cursor: pointer;" style-hover="background: #F3EEF7;">
+            <svg width="24" height="8" viewBox="0 0 24 8" fill="none" aria-hidden="true"><path d="M0 4h21M17.5 1l3.5 3-3.5 3" stroke="#7D5A96" stroke-width="1.2" fill="none"></path></svg>
+          </button>
+          <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">{{ counter }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto; background: #F3EEF7; border: 1px solid #E6DCEA; border-radius: 8px; padding: 48px;">
+      
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 24px 0;">Da li vašem biznisu treba veb-sajt?</h2>
+      <p style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 65ch; margin: 0 0 48px 0;">Dobar veb-sajt nije samo mesto na kom piše šta nudite. Pomaže ljudima da vas pronađu, brzo dobiju potrebne informacije i lakše odluče da li žele da vam se jave ili kupe.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px;">
+        <article style="display: flex; flex-direction: column; gap: 16px; background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; padding: 32px;">
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 500; color: #25192E; margin: 0;">Da li mi treba veb-sajt?</h3>
+          <p style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0; flex: 1;">Možda već imate Instagram ili vam većina klijenata dolazi preko preporuke. Saznajte kada veb-sajt ima smisla, šta može da uradi za vaš biznis i kako može da vam uštedi vreme.</p>
+          <a href="#pitanja" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; align-self: flex-start; font-size: 16px; font-weight: 600; color: #7D5A96; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; padding: 12px 24px;" style-hover="background: #F3EEF7;">Pročitajte kada sajt ima smisla →</a>
+        </article>
+        <article style="display: flex; flex-direction: column; gap: 16px; background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; padding: 32px;">
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 500; color: #25192E; margin: 0;">Šta čini dobar veb-sajt?</h3>
+          <p style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0; flex: 1;">Profesionalan izgled nije dovoljan. Dobar sajt treba da bude jasan, pregledan, jednostavan za korišćenje i napravljen tako da vodi posetioca od prvog pitanja do odluke.</p>
+          <a href="#pitanja" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; align-self: flex-start; font-size: 16px; font-weight: 600; color: #7D5A96; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; padding: 12px 24px;" style-hover="background: #F3EEF7;">Šta čini dobar sajt? →</a>
+        </article>
+        <article style="display: flex; flex-direction: column; gap: 16px; background: #FFFFFF; border: 1px solid #E6DCEA; border-radius: 8px; padding: 32px;">
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 500; color: #25192E; margin: 0;">Kakav sajt mi treba?</h3>
+          <p style="font-size: 18px; line-height: 1.6; color: #443052; margin: 0; flex: 1;">Jedna stranica ili više njih? Veb-prodavnica? Sajt čiji sadržaj možete sami da menjate? Ili možda već imate sajt kome je potreban redizajn?</p>
+          <a href="Cene.dc.html" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; align-self: flex-start; font-size: 16px; font-weight: 600; color: #7D5A96; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; padding: 12px 24px;" style-hover="background: #F3EEF7;">Pronađite pravo rešenje →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="paketi" data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+        
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Paketi</span>
+      </div>
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 48px 0;">Šta dobijate i koliko košta</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 32px; align-items: start;">
+
+        <article style="border: 1px solid #E6DCEA; border-radius: 8px; padding: 32px; background: #FFFFFF;">
+          <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Start</span>
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 600; color: #25192E; margin: 16px 0;">od 600 evra</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0 0 24px 0;">Jednostranični sajt za mali biznis kome treba jasna i profesionalna stranica.</p>
+          <ul style="list-style: none; margin: 0 0 24px 0; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Jedna stranica, do 5 sekcija</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Dizajn i izrada sajta</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Prilagođavanje telefonu i računaru</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Osnovna SEO optimizacija</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Kontakt forma</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Pomoć oko kupovine domena i hostinga</span></li>
+          </ul>
+          
+          <a href="#kontakt" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #7D5A96; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #F3EEF7;">Pošaljite upit</a>
+        </article>
+
+        <article style="border: 1px solid #7D5A96; border-radius: 8px; padding: 32px; background: #F3EEF7;">
+          <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Biznis - najčešći izbor</span>
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 600; color: #25192E; margin: 16px 0;">od 950 evra</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0 0 24px 0;">Višestranični sajt za biznis kome treba više prostora da predstavi ponudu.</p>
+          <p style="font-size: 16px; line-height: 1.5; color: #25192E; margin: 0 0 12px 0;">Sve iz paketa Start, plus:</p>
+          <ul style="list-style: none; margin: 0 0 24px 0; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Do 5 stranica</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Pisanje i organizacija sadržaja</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Istraživanje ključnih reči</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>SEO optimizacija svih stranica</span></li>
+          </ul>
+          <a href="#kontakt" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #FFFFFF; background: #7D5A96; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #66447E; border-color: #66447E;">Pošaljite upit</a>
+        </article>
+
+        <article style="border: 1px solid #E6DCEA; border-radius: 8px; padding: 32px; background: #FFFFFF;">
+          <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Biznis plus</span>
+          <h3 style="font-family: Petrona, Georgia, serif; font-size: 24px; line-height: 1.3; font-weight: 600; color: #25192E; margin: 16px 0;">od 1300 evra</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0 0 24px 0;">Za biznis kome su, pored sajta, potrebni logo i vizuelni identitet.</p>
+          <p style="font-size: 16px; line-height: 1.5; color: #25192E; margin: 0 0 12px 0;">Sve iz paketa Biznis, plus:</p>
+          <ul style="list-style: none; margin: 0 0 24px 0; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+            
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Dizajn logotipa</span></li>
+            <li style="display: flex; gap: 8px; font-size: 16px; line-height: 1.5; color: #443052;"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex: none; margin-top: 4px;" aria-hidden="true"><path d="M3 8.5l3.5 3.5L13 5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg><span>Osnovni vizuelni identitet</span></li>
+            
+          </ul>
+          <a href="#kontakt" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #7D5A96; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #F3EEF7;">Pošaljite upit</a>
+        </article>
+      </div>
+
+      <div style="margin-top: 48px;">
+        <a href="Cene.dc.html" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #7D5A96; background: transparent; border: 1px solid #7D5A96; border-radius: 999px; padding: 16px 32px;" style-hover="background: #F3EEF7;">Pogledajte detalje</a>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 32px; margin-top: 48px;">
+        <p style="font-size: 16px; line-height: 1.6; color: #443052; margin: 0; max-width: 65ch;">Konačna cena zavisi od obima projekta i dodatnih usluga (dodatne stranice, pisanje tekstova, prevod na engleski, blog/CMS, sistem za rezervacije).</p>
+        <p style="font-size: 16px; line-height: 1.6; color: #443052; margin: 0; max-width: 65ch;">Domen i hosting nisu uračunati u cenu. Ne morate sami da se bavite tehničkim delom, biramo ih i podešavamo zajedno.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+        
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Proces</span>
+      </div>
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 48px 0;">Kako izgleda izrada sajta</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 32px;">
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">01</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Pošaljete mi upit</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Napišete čime se bavite i koji vam je cilj.</p>
+        </div>
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">02</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Upoznajem vaš biznis</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Zakažemo razgovor od oko sat vremena. Vi odgovarate na moja pitanja, da razumem ponudu i vaše kupce.</p>
+        </div>
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">03</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Šaljete mi materijal</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Fotografije, snimke i tekstove koje želite da koristimo, ako ste izabrali da sami pišete tekst.</p>
+        </div>
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">04</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Radim na sajtu</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Izrada traje oko 4 do 14 dana, zavisno od obima. Javljam vam dokle sam stigla.</p>
+        </div>
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">05</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Domen i hosting</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Ako ih nemate, zakazujemo video poziv u kom ih zajedno biramo i kupujemo.&nbsp;</p>
+        </div>
+        <div style="border-top: 1px solid #E6DCEA; padding-top: 16px;">
+          <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 600; color: #7D5A96;">06</span>
+          <h3 style="font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E; margin: 8px 0 16px 0;">Sajt ide online</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: #443052; margin: 0; max-width: 65ch;">Posle završnih izmena i vašeg odobrenja, postavljam sajt na vaš domen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pitanja" data-sec="1" style="padding: 96px 24px; border-top: 1px solid #E6DCEA;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+        
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #7D5A96;">Česta pitanja</span>
+      </div>
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #25192E; margin: 0 0 48px 0;">Ono što me najčešće pitaju</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 12px; align-items: start;">
+        <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
+          <div style="border: 1px solid #E6DCEA; border-radius: 8px; background: #FFFFFF;">
+            <button type="button" onClick="{{ f.toggle }}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; background: transparent; border: 0; padding: 16px; cursor: pointer; text-align: left; font-family: var(--h-font); font-size: 24px; line-height: 1.3; font-weight: var(--h3-weight); color: #25192E;">
+              {{ f.q }}
+              <span style="{{ f.iconStyle }}">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 6l5 5 5-5" stroke="#7D5A96" stroke-width="1.4" fill="none"></path></svg>
+              </span>
+            </button>
+            <div style="{{ f.bodyStyle }}">
+              <p style="font-size: 16px; line-height: 1.6; color: #443052; margin: 0; padding: 0 16px 16px 16px;">{{ f.a }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" data-sec="1" style="padding: 96px 24px;">
+    <div style="max-width: 1100px; margin: 0 auto; background: #7D5A96; border-radius: 8px; padding: 96px 48px; text-align: center;">
+      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF;">Kontakt</span>
+      <h2 data-h2="1" style="font-family: var(--h-font); font-size: 40px; line-height: 1.2; font-weight: var(--h2-weight); color: #FFFFFF; margin: 16px 0 16px 0;">Razmišljate o novom veb-sajtu?</h2>
+      <p style="font-size: 18px; line-height: 1.3; font-family: Manrope; color: #FFFFFF; max-width: 65ch; margin: 0 auto 24px auto">Prijavite se za besplatnu procenu.<br>Napišite čime se bavite i koji vam je cilj.</p>
+      
+      <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+        <a href="mailto:tijanag314@gmail.com" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; font-weight: 600; color: #7D5A96; background: #FFFFFF; border: 1px solid #FFFFFF; border-radius: 999px; padding: 16px 32px; white-space: nowrap;" style-hover="background: #F3EEF7; border-color: #F3EEF7;">Besplatna procena</a>
+        <button type="button" onClick="{{ copyMail }}" style="display: inline-flex; align-items: center; justify-content: center; text-align: center; font-family: Manrope, sans-serif; font-size: 16px; font-weight: 600; color: #FFFFFF; background: transparent; border: 1px solid #FFFFFF; border-radius: 999px; padding: 16px 32px; cursor: pointer; white-space: nowrap;" style-hover="background: #66447E;">{{ copyCtaLabel }}</button>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer style="border-top: 1px solid #E6DCEA; padding: 48px 24px;">
+    <div style="max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+      <span style="font-family: Petrona, Georgia, serif; font-size: 24px; font-weight: 400; color: #25192E;">tijana.designs</span>
+      <span style="font-size: 16px; color: #443052;">Tijana Ganić, veb-dizajn i izrada sajtova</span>
+      <a href="mailto:tijanag314@gmail.com" style="font-size: 16px; color: #7D5A96;">tijanag314@gmail.com</a>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;h1Thickness&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;100&quot;,&quot;200&quot;,&quot;300&quot;,&quot;400&quot;,&quot;500&quot;,&quot;600&quot;,&quot;700&quot;,&quot;800&quot;,&quot;900&quot;],&quot;default&quot;:&quot;400&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Debljina naslova&quot;},&quot;h2Thickness&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;100&quot;,&quot;200&quot;,&quot;300&quot;,&quot;400&quot;,&quot;500&quot;,&quot;600&quot;,&quot;700&quot;,&quot;800&quot;,&quot;900&quot;],&quot;default&quot;:&quot;400&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Debljina naslova&quot;},&quot;h3Thickness&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;100&quot;,&quot;200&quot;,&quot;300&quot;,&quot;400&quot;,&quot;500&quot;,&quot;600&quot;,&quot;700&quot;,&quot;800&quot;,&quot;900&quot;],&quot;default&quot;:&quot;400&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Debljina naslova&quot;}}">
+class Component extends DCLogic {
+  state = { photo: 0, open: 0, copied: false };
+
+  copy() {
+    const mail = "tijanag314@gmail.com";
+    if (navigator.clipboard) navigator.clipboard.writeText(mail);
+    this.setState({ copied: true });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ copied: false }), 1800);
+  }
+
+  photoCount() { return 8; }
+
+  faqData() {
+    return [
+      { q: "Koliko traje izrada?", a: "Od 4 do 14 dana, zavisno od broja stranica i od toga koliko brzo dobijem materijal od vas." },
+      { q: "Ko piše tekst?", a: "U paketu Start tekst pišete vi, a ja mogu da ga napišem za dodatnih 100 evra. U paketima Biznis i Biznis plus pisanje teksta je uključeno." },
+      { q: "Mogu li sama da menjam sadržaj?", a: "Možete, ako želite da tu mogućnost uključimo u sajt. Sistem za samostalno menjanje sadržaja dodatno se naplaćuje." },
+      { q: "Šta ako mi treba izmena posle predaje?", a: "Prvih 14 dana popravljam sve što ne radi kako treba, bez naplate. Kasnije izmene dogovaramo po satu ili po obimu." },
+      { q: "Šta se dešava nakon što sajt bude objavljen?", a: "Prvih 30 dana proveravam da li sve radi kako treba i bez dodatne naplate ispravljam eventualne tehničke probleme. Kasnije, ako vašem biznisu zatrebaju nove stranice, sadržaj ili dodatne mogućnosti, sajt možemo da proširimo." },
+      { q: "Da li radite i sa postojećim sajtovima?", a: "Da. Ako već imate sajt, prvo mogu da procenim šta vredi zadržati, a šta bi trebalo promeniti. Ako redizajn postojećeg sajta ima smisla, možemo krenuti od njega. Ako je bolje napraviti novi, objasniću vam zašto i predložiti rešenje." }
+    ];
+  }
+
+  renderVals() {
+    const n = this.photoCount();
+    const active = this.state.photo;
+    const slide = {};
+    for (let i = 0; i < n; i++) {
+      const rel = (i - active + n) % n;
+      slide["s" + i] = {
+        position: "absolute",
+        inset: 0,
+        borderRadius: "8px",
+        overflow: "hidden",
+        transform: "rotate(" + (rel === 0 ? 0 : rel === 1 ? 3 : -3) + "deg) translateY(" + Math.min(rel, 2) * 8 + "px) scale(" + (1 - Math.min(rel, 2) * 0.03) + ")",
+        zIndex: n - rel,
+        opacity: rel === 0 ? 1 : rel <= 2 ? 0.6 : 0,
+        pointerEvents: rel === 0 ? "auto" : "none",
+        transition: "transform 320ms ease, opacity 320ms ease"
+      };
+      slide["c" + i] = {
+        fontSize: "16px",
+        lineHeight: 1.5,
+        color: "#443052",
+        margin: 0,
+        display: rel === 0 ? "block" : "none"
+      };
+    }
+    return {
+      ...slide,
+      rootStyle: {
+        maxWidth: "100%",
+        overflowX: "hidden",
+        "--h-font": "Petrona, Georgia, serif",
+        "--h1-weight": this.props.h1Thickness ?? 400,
+        "--h2-weight": this.props.h2Thickness ?? 400,
+        "--h3-weight": this.props.h3Thickness ?? 400
+      },
+      copyMail: () => this.copy(),
+      copyCtaLabel: this.state.copied ? "Imejl kopiran" : "Kopiraj imejl",
+      copyLabel: this.state.copied ? "Kopirano" : "Kopiraj mejl",
+      copiedStyle: { fontSize: "12px", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", color: "#7D5A96", opacity: this.state.copied ? 1 : 0, transition: "opacity 200ms ease" },
+      counter: (active + 1) + " / " + n,
+      prev: () => this.setState(s => ({ photo: (s.photo - 1 + n) % n })),
+      next: () => this.setState(s => ({ photo: (s.photo + 1) % n })),
+      faqs: this.faqData().map((f, i) => {
+        const open = this.state.open === i;
+        return {
+          q: f.q,
+          a: f.a,
+          toggle: () => this.setState(s => ({ open: s.open === i ? -1 : i })),
+          iconStyle: {
+            display: "flex",
+            flex: "none",
+            transform: open ? "rotate(180deg)" : "rotate(0deg)",
+            transition: "transform 200ms ease"
+          },
+          bodyStyle: { display: open ? "block" : "none" }
+        };
+      })
+    };
+  }
+}
+
+</script>
+</body>
+</html>

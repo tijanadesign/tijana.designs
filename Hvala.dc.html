@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<script>document.addEventListener("click", function (e) {
+  if (!document.body || !document.body.hasAttribute("data-dc-editor-on")) return;
+  var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+  if (a) { e.preventDefault(); }
+}, true);</script>
+<title>Hvala na poruci - Tijana Ganić, veb-dizajn</title>
+<meta name="description" content="Poruka je poslata. Javljam se u roku od 24 sata sa idejama za vaš projekat.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237D5A96'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23fff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<script>
+(function(){
+  try { var t = localStorage.getItem("tg-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  if (window.__tgThemeInit) return;
+  window.__tgThemeInit = true;
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("[data-theme-toggle]");
+    if (!b) return;
+    var cur = document.documentElement.getAttribute("data-theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try { localStorage.setItem("tg-theme", next); } catch (e2) {}
+  });
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  .arrow-icon-left { transition: transform 0.25s ease; }
+  a:hover .arrow-icon-left { transform: translateY(-0.04em) scaleX(-1) translateX(5px) !important; }
+
+  body { margin: 0; background: #FFFFFF; font-family: Manrope, sans-serif; color: #443052; -webkit-font-smoothing: antialiased; }
+  a { color: #7D5A96; text-decoration: none; }
+  a:hover { color: #25192E; }
+  * { box-sizing: border-box; }
+
+  :root {
+    --bg: #FFFFFF; --surface: #FFFFFF; --surface-alt: #F3EEF7; --line: #f0eaf4;
+    --ink: #25192E; --ink-muted: #443052; --ink-faint: #9a86a8;
+    --purple-ink: #7D5A96; --terracotta: #CC7D4E; --photo: #ddd6c7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #25192E; --surface: #2F2138; --surface-alt: #362941; --line: rgba(255,255,255,0.1);
+      --ink: #F0EAF4; --ink-muted: #B9A9C7; --ink-faint: #8F7C9C;
+      --purple-ink: #A98DBE; --photo: #3E362C;
+    }
+    :root:not([data-theme="light"]) body { background: var(--bg) !important; color: var(--ink-muted) !important; }
+    :root:not([data-theme="light"]) a { color: var(--purple-ink); }
+    :root:not([data-theme="light"]) a:hover { color: var(--ink); }
+    :root:not([data-theme="light"]) header, :root:not([data-theme="light"]) footer { background: var(--bg) !important; border-color: var(--line) !important; }
+    :root:not([data-theme="light"]) [data-surf="page"] { background: var(--bg) !important; }
+    :root:not([data-theme="light"]) [data-surf="card"] { background: var(--surface) !important; }
+    :root:not([data-theme="light"]) [data-surf="alt"], :root:not([data-theme="light"]) [data-surf="card-alt"] { background: var(--surface-alt) !important; }
+    :root:not([data-theme="light"]) [data-surf="photo"] { background: var(--photo) !important; }
+    :root:not([data-theme="light"]) [data-alt] { background: var(--bg) !important; }
+    :root:not([data-theme="light"]) [data-alt]:nth-of-type(odd) { background: var(--surface-alt) !important; }
+    :root:not([data-theme="light"]) [data-line="1"] { border-color: var(--line) !important; }
+    :root:not([data-theme="light"]) [data-ink="strong"] { color: var(--ink) !important; }
+    :root:not([data-theme="light"]) [data-ink="muted"] { color: var(--ink-muted) !important; }
+    :root:not([data-theme="light"]) [data-ink="faint"] { color: var(--ink-faint) !important; }
+    :root:not([data-theme="light"]) [data-ink="purple"] { color: var(--purple-ink) !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] { background: #7D5A96 !important; border-color: #7D5A96 !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-ink] { color: #FFFFFF !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="card"], :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="page"] { background: #FFFFFF !important; border-color: #FFFFFF !important; }
+    :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="card"][data-ink], :root:not([data-theme="light"]) [data-surf="brand"] [data-surf="page"][data-ink] { color: #7D5A96 !important; }
+    :root:not([data-theme="light"]) [data-theme-toggle] [data-icon="sun"] { display: block !important; }
+    :root:not([data-theme="light"]) [data-theme-toggle] [data-icon="moon"] { display: none !important; }
+    :root:not([data-theme="light"]) ::selection { background: #4A3557; color: #F0EAF4; }
+  }
+  :root[data-theme="dark"] {
+      --bg: #25192E; --surface: #2F2138; --surface-alt: #362941; --line: rgba(255,255,255,0.1);
+      --ink: #F0EAF4; --ink-muted: #B9A9C7; --ink-faint: #8F7C9C;
+      --purple-ink: #A98DBE; --photo: #3E362C;
+  }
+  :root[data-theme="dark"] body { background: var(--bg) !important; color: var(--ink-muted) !important; }
+  :root[data-theme="dark"] a { color: var(--purple-ink); }
+  :root[data-theme="dark"] a:hover { color: var(--ink); }
+  :root[data-theme="dark"] header, :root[data-theme="dark"] footer { background: var(--bg) !important; border-color: var(--line) !important; }
+  :root[data-theme="dark"] [data-surf="page"] { background: var(--bg) !important; }
+  :root[data-theme="dark"] [data-surf="card"] { background: var(--surface) !important; }
+  :root[data-theme="dark"] [data-surf="alt"], :root[data-theme="dark"] [data-surf="card-alt"] { background: var(--surface-alt) !important; }
+  :root[data-theme="dark"] [data-surf="photo"] { background: var(--photo) !important; }
+  :root[data-theme="dark"] [data-alt] { background: var(--bg) !important; }
+  :root[data-theme="dark"] [data-alt]:nth-of-type(odd) { background: var(--surface-alt) !important; }
+  :root[data-theme="dark"] [data-line="1"] { border-color: var(--line) !important; }
+  :root[data-theme="dark"] [data-ink="strong"] { color: var(--ink) !important; }
+  :root[data-theme="dark"] [data-ink="muted"] { color: var(--ink-muted) !important; }
+  :root[data-theme="dark"] [data-ink="faint"] { color: var(--ink-faint) !important; }
+  :root[data-theme="dark"] [data-ink="purple"] { color: var(--purple-ink) !important; }
+  :root[data-theme="dark"] [data-surf="brand"] { background: #7D5A96 !important; border-color: #7D5A96 !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-ink] { color: #FFFFFF !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-surf="card"], :root[data-theme="dark"] [data-surf="brand"] [data-surf="page"] { background: #FFFFFF !important; border-color: #FFFFFF !important; }
+  :root[data-theme="dark"] [data-surf="brand"] [data-surf="card"][data-ink], :root[data-theme="dark"] [data-surf="brand"] [data-surf="page"][data-ink] { color: #7D5A96 !important; }
+  :root[data-theme="dark"] [data-theme-toggle] [data-icon="sun"] { display: block !important; }
+  :root[data-theme="dark"] [data-theme-toggle] [data-icon="moon"] { display: none !important; }
+  :root[data-theme="dark"] ::selection { background: #4A3557; color: #F0EAF4; }
+
+  ::selection { background: #E3D4EE; color: #25192E; }
+  .arrow-icon-back { transition: transform 0.25s ease; }
+  a:hover .arrow-icon-back { transform: translateY(-0.09em) rotate(90deg) translateY(4px) !important; }
+  a, button { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+  a:hover, button:hover { transform: translateY(-2px); }
+  @media (max-width: 900px) {
+    [data-split] { display: block !important; }
+    [data-split] > h2 { margin: 0 0 24px 0 !important; }
+    [data-about] { grid-template-columns: 1fr !important; }
+    div[style*="minmax(0px, 427px)"], div[style*="minmax(0px, 480px)"], div[style*="minmax(0px, 300px)"], div[style*="minmax(0, 427px)"], div[style*="minmax(0, 480px)"], div[style*="minmax(0, 300px)"] { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 768px) {
+    [data-h1] { font-size: 34px !important; font-weight: 600 !important; width: auto !important; max-width: 100% !important; height: auto !important; }
+    [data-h1] + p { margin-top: 24px !important; }
+    [data-h2] { font-size: 28px !important; }
+    h3, [data-faq-q] { font-size: 22px !important; }
+    [data-h2] { font-weight: 600 !important; }
+    h3:not([data-faq-q]) { font-weight: 500 !important; }
+    [data-faq-q] { font-weight: 400 !important; }
+    p:not([data-small]), li, p[data-small][style*="font-size: 20px"] { font-size: 18px !important; }
+    p[data-small][style*="font-size: 16px"] { font-size: 16px !important; }
+    p[data-small][style*="font-weight: 700"] { font-size: 18px !important; }
+    span[style*="text-transform: uppercase"] { font-size: 12px !important; font-weight: 700 !important; }
+    p[style*="font-size: 28px"] { font-size: 20px !important; }
+    [data-sec] { padding-left: 20px !important; padding-right: 20px !important; }
+    [data-sec][style*="96px 24px"] { padding-top: 56px !important; padding-bottom: 56px !important; }
+    [data-hero] { padding-left: 20px !important; padding-right: 20px !important; }
+    [data-hero][style*="128px"] { padding-top: 56px !important; }
+    #kontakt > div { padding: 40px 24px !important; }
+    header > div { padding: 12px 20px !important; grid-template-columns: 1fr auto !important; gap: 12px 16px !important; justify-items: start; }
+    header > div > div:has(> a[href^="mailto:"]) { grid-row: 1 !important; grid-column: 2 !important; justify-self: end !important; }
+    header > div > div:has(> a[href^="mailto:"]) > a[href^="mailto:"], header > div > a[href^="mailto:"] { display: none !important; }
+    [data-nav] { grid-row: 2 !important; grid-column: 1 / -1 !important; flex-wrap: wrap !important; white-space: normal !important; justify-content: flex-start !important; gap: 18px !important; }
+    [data-grid], [data-about], [data-split] { grid-template-columns: 1fr !important; }
+    footer > div { flex-direction: column !important; align-items: flex-start !important; gap: 16px !important; }
+    input, textarea, select { font-size: 16px !important; }
+    div:has(> svg[viewBox="0 0 746 759"]) { padding-top: 44px !important; padding-bottom: 44px !important; }
+    svg[viewBox="0 0 746 759"] { width: 44px !important; }
+    div[style*="gap: 14px"] > svg { width: 20px !important; height: 26px !important; margin: 1px -3.5px 0 3.5px !important; }
+  }
+</style>
+</helmet>
+
+<div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 64px 24px;">
+
+  <div  data-surf="card-alt" data-line="1" style="display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; border-radius: 50%; background: #F3EEF7; border: 1px solid #f0eaf4; margin-bottom: 32px; box-shadow: 0 20px 40px -16px rgba(37,25,46,0.18);">
+    <svg width="30" height="24" viewBox="0 0 52 40" fill="none" aria-hidden="true" style="display: block;"><path d="M4 20L18 34L48 4" stroke="#7D5A96" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </div>
+
+  <span style="display: block; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #CC7D4E; margin-bottom: 16px;">Poruka poslata</span>
+  <h1 data-h1="1"  data-ink="strong" style="font-family: Petrona, Georgia, serif; font-size: 44px; line-height: 1.2; letter-spacing: -0.02em; font-weight: 600; color: #25192E; margin: 0 0 24px 0; max-width: 18ch; text-wrap: balance;">Hvala na poruci!</h1>
+  <p  data-ink="muted" style="font-size: 18px; line-height: 1.6; color: #443052; max-width: 44ch; margin: 0 0 40px 0;">Javljam se u roku od 24 sata sa idejama za vaš projekat i okvirnom cenom.</p>
+
+  <a href="Tijana Designs.dc.html"  data-ink="purple" style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 600; color: #7D5A96;"><svg class="arrow-icon-left" width="0.81em" height="1.15em" viewBox="0 0 370 527" aria-hidden="true" style="display: inline-block; vertical-align: middle; flex: none; transform: translateY(-0.04em) scaleX(-1);"><g transform="translate(0,527) rotate(-90) translate(-283,-638) translate(0,1448) scale(0.1,-0.1)" fill="#7D5A96" stroke="none"><path d="M2951 7969 c-35 -5 -89 -20 -120 -32 -94 -37 -86 -46 149 -167 221 -114 382 -216 526 -332 385 -312 751 -761 1061 -1303 94 -163 255 -467 305 -575 20 -41 60 -127 91 -190 134 -280 225 -484 358 -801 72 -174 90 -209 103 -209 15 0 15 0 126 265 105 251 182 428 220 510 16 33 76 161 135 285 348 739 661 1223 1067 1653 328 347 658 581 1056 749 48 21 62 31 62 48 0 47 -170 92 -350 93 -481 2 -1035 -272 -1485 -734 -315 -323 -553 -690 -780 -1201 -26 -60 -49 -108 -50 -108 -2 0 -18 35 -35 78 -61 147 -227 478 -305 607 -280 465 -626 838 -990 1065 -213 133 -430 225 -654 276 -122 28 -380 40 -490 23z"></path></g></svg><span>Nazad na početnu</span></a>
+
+
+  
+</div>
+</x-dc>
+</body>
+</html>

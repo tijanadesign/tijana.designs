@@ -1,0 +1,431 @@
+TEKSTOVI SA SAJTA — tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+
+
+============================================================
+POČETNA STRANICA
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+Kopirano
+Slobodna za 2 projekta
+
+# Pravim veb-sajtove za ljude koji se bave holističkim metodama i ličnim razvojem.
+Pomažem vam da jasno predstavite svoj rad, izgradite poverenje i olakšate pravim ljudima da vas pronađu i naprave prvi korak.
+Besplatna procena
+Zakažite razgovor bez obaveze
+
+## Odabrani radovi
+
+### Psihoterapeut
+Višestranični sajt koji odgovara na pitanja potencijalnih klijenata i smanjuje neizvesnost pre prvog javljanja. Struktura i sadržaj osmišljeni su prema relevantnim pretragama kako bi terapeuta lakše pronašli ljudi koji traže podršku.
+Pogledaj sajt
+
+### Psihoterapija - jednostranični sajt
+Sve važne informacije o terapeutu i terapiji organizovane su na jednoj stranici, tako da potencijalni klijent lako može da pronađe ono što ga zanima. Jasan tok sadržaja vodi ga od upoznavanja sa terapeutom i načinom rada do prvog kontakta.
+
+### Ferrum Fitness
+Jednostranični sajt za fitnes centar specijalizovan za individualne treninge. Sadržaj je osmišljen tako da jasno predstavi prednosti individualnog pristupa, način rada i usluge i vodi posetioca od upoznavanja sa centrom do zakazivanja treninga.
+Pogledaj sajt
+O meni
+
+## Kreativna duša, analitički um
+Devojčica koja je nekad bila „previše osetljiva” danas je veb-dizajnerka koja razume potrebe svojih klijenata čak i kada oni ne znaju kako da ih formulišu.
+Studentkinja biohemije koja je odbila poziciju asistenta i izabrala dizajn danas ume da iz gomile informacija izdvoji ono što je za vaše kupce zaista važno.
+Sve veštine koje sam usavršila tokom studija danas primenjujem u dizajnu - istraživanje literature, analitičko razmišljanje, izvođenje zaključaka na osnovu podataka.Osetljivost mi pomaže da razumem ljude, analitičnost da prepoznam suštinu problema, a kreativnost da pronađem rešenje.
+Verujte mi, nauka i dizajn nisu toliko različiti koliko se na prvi pogled čini :)
+Kreativnost i strpljenje bili su deo mene mnogo pre dizajna.
+Kako regulišem osećanja.
+Kako sam naučila da izbistrim um i fokusiram se na ono što je u tom trenutku prioritet.
+Moj rad na koji sam posebno ponosna.
+Mač koji sam napravila svojim rukama.
+Iskustvo koje me je najviše promenilo?
+Tri meseca studentkse razmene u Vijentamu.
+Fića toliko voli moje radove da se mazi sa njima.
+{{ counter }}
+
+## Da li vašem biznisu treba veb-sajt?
+Dobar veb-sajt nije samo mesto na kom piše šta nudite. On pomaže ljudima da vas pronađu, brzo dobiju potrebne informacije i lakše odluče da li žele da vam se jave ili kupe.
+
+### Da li mi treba veb-sajt?
+Možda već imate Instagram ili vam većina klijenata dolazi preko preporuke.Saznajte kako veb-sajt može da radi za vas i razmislite šta biste sve uradili kada biste imali više slobodnog vremena.
+
+### Šta čini dobar veb-sajt?
+Profesionalan izgled nije dovoljan.Dobar sajt treba da bude jasan, pregledan, jednostavan za korišćenje i napravljen tako da vodi posetioca od prvog pitanja do odluke.
+
+### Kakav sajt mi treba?
+Jedna stranica ili više njih? Veb-prodavnica? Sajt čiji sadržaj možete sami da menjate? Ili možda već imate sajt kome je potreban redizajn?
+
+### Koliko bi vam značilo nekoliko kupaca više mesečno?
+Unesite prosečnu vrednost jedne kupovine ili usluge i pogledajte koliku razliku nekoliko dodatnih kupaca mesečno može da napravi na kraju godine.
+Ovo je ilustrativan primer, a ne procena buduće zarade. Rezultati sajta zavise od ponude, posetilaca i drugih faktora.
+Prosečna vrednost kupovine ili usluge
+{{ avg }}
+Dodatnih kupaca mesečno
+{{ extra }}
+Potencijalni dodatni prihod za godinu dana
+{{ diff }} RSD
+≈ {{ diffEur }}
+Paketi
+
+## Šta dobijate i koliko košta
+Start
+
+### od 600 evra
+Jednostranični sajt za mali biznis kome treba jasna i profesionalna stranica.
+- Jedna stranica, do 5 sekcija
+- Dizajn i izrada sajta
+- Prilagođavanje telefonu i računaru
+- Osnovna SEO optimizacija
+- Kontakt forma
+- Pomoć oko kupovine domena i hostinga
+Pošaljite upit
+Biznis - najčešći izbor
+
+### od 950 evra
+Višestranični sajt za biznis kome treba više prostora da predstavi ponudu.
+Sve iz paketa Start, plus:
+- Do 5 stranica
+- Pisanje i organizacija sadržaja
+- Istraživanje ključnih reči
+- SEO optimizacija svih stranica
+Pošaljite upit
+Biznis plus
+
+### od 1400 evra
+Za biznis kome su, pored sajta, potrebni logo i vizuelni identitet.
+Sve iz paketa Biznis, plus:
+- Dizajn logotipa
+- Osnovni vizuelni identitet
+Pošaljite upit
+Pogledajte detalje
+Konačna cena zavisi od obima projekta i dodatnih usluga (dodatne stranice, pisanje tekstova, prevod na engleski, blog/CMS, sistem za rezervacije).
+Domen i hosting nisu uračunati u cenu. Ne morate sami da se bavite tehničkim delom, biramo ih i podešavamo zajedno.
+Proces
+
+## Kako izgleda izrada sajta
+01
+
+### Pošaljete mi upit
+Napišete čime se bavite i koji vam je cilj.
+02
+
+### Upoznajem vaš biznis
+Zakažemo razgovor od oko sat vremena. Vi odgovarate na moja pitanja, da razumem ponudu i vaše kupce.
+03
+
+### Šaljete mi materijal
+Fotografije, snimke i tekstove koje želite da koristimo, ako ste izabrali da sami pišete tekst.
+04
+
+### Radim na sajtu
+Izrada traje oko 4 do 14 dana, zavisno od obima. Javljam vam dokle sam stigla.
+05
+
+### Domen i hosting
+Ako ih nemate, zajedno biramo i kupujemo. Podešavanje radim ja.
+06
+
+### Sajt ide online
+Posle završnih izmena i vašeg odobrenja, postavljam sajt na vaš domen.
+Česta pitanja
+
+## Ono što me najčešće pitaju
+
+### Koliko traje izrada?
+Od 4 do 14 dana, zavisno od broja stranica i od toga koliko brzo dobijem materijal od vas.
+
+### Ko piše tekst?
+U paketu Start tekst pišete vi, a ja mogu da ga napišem za dodatnih 100 evra. U paketima Biznis i Biznis plus pisanje teksta je uključeno.
+
+### Mogu li sama da menjam sadržaj?
+Možete, ako želite da tu mogućnost uključimo u sajt. Sistem za samostalno menjanje sadržaja dodatno se naplaćuje.
+
+### Šta ako mi treba izmena posle predaje?
+Prvih 14 dana popravljam sve što ne radi kako treba, bez naplate. Kasnije izmene dogovaramo po satu ili po obimu.
+
+### Šta se dešava nakon što sajt bude objavljen?
+Prvih 30 dana proveravam da li sve radi kako treba i bez dodatne naplate ispravljam eventualne tehničke probleme. Kasnije, ako vašem biznisu zatrebaju nove stranice, sadržaj ili dodatne mogućnosti, sajt možemo da proširimo.
+
+### Da li radite i sa postojećim sajtovima?
+Da. Ako već imate sajt, prvo mogu da procenim šta vredi zadržati, a šta bi trebalo promeniti. Ako redizajn postojećeg sajta ima smisla, možemo krenuti od njega. Ako je bolje napraviti novi, objasniću vam zašto i predložiti rešenje.
+Kontakt
+
+## Razmišljate o novom veb-sajtu?
+Prijavite se za besplatnu procenu.Napišite čime se bavite i koji vam je cilj.
+Besplatna procena
+Kopiraj imejlImejl kopiran
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
+
+
+============================================================
+USLUGE I CENE
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+Kopirano
+Cenovnik
+
+# Koliko košta izrada sajta?
+Cena izrade sajta zavisi od obima projekta i dodatnih usluga - dodatnih stranica, pisanja tekstova, prevoda na engleski, bloga/CMS-a, sistema za rezervacije i drugih funkcionalnosti.
+Pre početka rada dobijate ponudu sa jasno definisanim obimom projekta i cenom.
+Ako niste sigurni kakav sajt vam je potreban, zakažite besplatan poziv koji vas ne obavezuje ni na šta.
+Zakažite besplatan poziv
+
+## Start - od 600 €
+
+### Jednostavan veb-sajt za mali biznis
+Start je namenjen malom biznisu kome je potrebno profesionalno mesto na internetu sa svim informacijama na jednoj stranici.
+Dobar je izbor ako imate jednostavnu ponudu i nije vam potrebno mnogo prostora da predstavite različite usluge ili proizvode.
+Pošaljite upit
+Paket uključuje:
+- jednu stranicu, do 5 sekcija
+- dizajn i izradu sajta
+- prilagođavanje telefonu i računaru
+- osnovnu SEO
+- kontakt formu
+- pomoć oko kupovine domena i hostinga
+
+### Šta znači osnovna SEO?
+SEO (Search Engine Optimization) je prilagođavanje sajta kako bi ga pretraživači poput Gugla bolje razumeli i lakše prikazali ljudima koji traže ono što nudite.
+Svaki sajt koji napravim ima tehničke elemente koji pomažu Guglu da pravilno pročita i razume njegov sadržaj.
+Ovaj paket ne uključuje istraživanje ključnih reči i planiranje sadržaja prema Gugl pretragama. To je deo Biznis paketa.
+Najčešći izbor
+
+## Biznis - od 950 €
+
+### Višestranični sajt za biznis koji želi više prostora za svoju ponudu
+Ako nudite više usluga, imate više sadržaja ili želite da potencijalni kupci mogu lako da pronađu detaljne informacije o vašoj ponudi, nekoliko zasebnih stranica daje vam mnogo više prostora nego sajt na jednoj stranici.
+Pošaljite upit
+Sve iz Start paketa, plus:
+- do 5 stranica
+- napredna SEO
+- pisanje i organizacija sadržaja
+- istraživanje ključnih reči
+
+### Kako izgleda istraživanje ključnih reči?
+Istraživanje ključnih reči je deo naprednije SEO strategije, jer se sadržaj sajta planira prema onome što vaši potencijalni kupci zaista pretražuju.
+Pre nego što napišem tekst, istražujem šta ljudi kucaju na Guglu kada traže proizvod ili uslugu poput vaše. Na osnovu toga određujemo koje teme treba da obradimo, šta treba da bude na kojoj stranici i koje informacije potencijalni kupac treba da pronađe.
+Cilj je da napravimo sajt koji odgovara na stvarna pitanja vaših kupaca, a Guglu jasno pokazuje čime se bavite.
+
+## Biznis Plus - od 1.400 €
+
+### Sajt, logo i vizuelni identitet za vaš biznis
+Ovaj paket je namenjen biznisu kome nije potrebna samo izrada veb-sajta, već i vizuelni identitet koji će ga predstavljati.
+Umesto da prvo napravite logo, a zatim pokušavate da mu prilagodite sajt, vizuelni identitet i veb-sajt razvijamo kao celinu.
+Pošaljite upit
+Sve iz Biznis paketa, plus:
+- dizajn logotipa
+- osnovni vizuelni identitet
+
+### Šta podrazumeva osnovni vizuelni identitet?
+Pored logotipa definišemo boje, tipografiju i osnovne vizuelne elemente koji stvaraju dosledan izgled vašeg biznisa.
+Na toj osnovi dizajniram i sajt, tako da svi elementi zajedno čine jedinstven vizuelni sistem.
+
+## Šta tačno podrazumevam pod SEO optimizacijom?
+Prilikom izrade sajta vodim računa o njegovoj tehničkoj SEO osnovi. U Biznis i Biznis Plus paketima dodatno istražujem relevantne ključne reči i pretrage i na osnovu njih planiram strukturu i sadržaj stranica.
+Ne garantujem određenu poziciju na Guglu. Na poziciju sajta utiče mnogo faktora i niko ne može odgovorno da garantuje prvo mesto u rezultatima pretrage.
+Takođe, moja usluga ne podrazumeva dugoročno praćenje pozicija, kontinuirano kreiranje SEO sadržaja, izgradnju linkova i višemesečnu SEO strategiju.
+Ako je vašem biznisu potrebno kontinuirano SEO pozicioniranje i praćenje rezultata nakon izrade sajta, preporučiću vam saradnju sa SEO stručnjakom.
+Nazad na početnu
+Kontakt
+
+## Razmišljate o novom veb-sajtu?
+Prijavite se za besplatnu procenu.Napišite čime se bavite i koji vam je cilj.
+Besplatna procena
+Kopiraj imejlImejl kopiran
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
+
+
+============================================================
+KONTAKT
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+
+# Potreban vam je veb-sajt?
+Napišite mi čime se bavite i šta želite da postignete.
+Ako već imate logo, tekstove ili slike, možete ih odmah priložiti (ali ne morate).
+Ne popunjavaj ovo polje:
+Ime i prezime
+Imejl
+Poruka
++ Dodaj fajlove
+{{ file.name }}
+Pošalji
+Obično odgovaram u roku od 24 sata.
+Nazad na početnu
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
+
+
+============================================================
+HVALA (potvrda nakon slanja forme)
+============================================================
+Poruka poslata
+
+# Hvala na poruci!
+Javljam se u roku od 24 sata sa idejama za vaš projekat i okvirnom cenom.
+Nazad na početnu
+
+
+============================================================
+DA LI MI TREBA SAJT?
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+Vodič
+
+# Da li vam treba veb-sajt?
+Niko vam ne može garantovati da ćete imati više upita ili prodaje zbog veb-sajta, ali ako vam je to cilj, veb-sajt je jako važan korak.
+Sajt treba da pokaže šta nudite, kome je to namenjeno i zašto da izaberu baš vas.
+Sajt je alat koji radi za vas 24/7
+Izradu sajta platite jednom, a on nastavlja da radi dok vi spavate, dok ste na odmoru ili provodite vreme sa porodicom.
+
+## Zašto mi treba sajt?
+Zato što potencijalnom kupcu daje jedno mesto na kom može da sazna ko ste, šta nudite, koliko to košta, kako radite i kako može da vas kontaktira.
+
+## Zašto je važan sajt?
+Zato što sve te informacije ne morate svaki put da pružate vi, a potencijalni kupac ne mora da čeka da mu odgovorite na poruku.
+
+## Da li mi treba veb-sajt ako imam Instagram?
+Stalno morate da smišljate nove objave, ljudi vas zovu ili šalju poruke sa pitanjima o vašim proizvodima ili uslugama, a mnogi od njih na kraju ništa i ne kupe. Koliko vremena dnevno provedete odgovarajući na ista pitanja?
+Ako se pitate da li je Instagram dovoljan, razmislite o tome čemu služi. Instagram privlači pažnju, dok sajt na jednom mestu, jasno i pregledno, predstavlja sve što kupac treba da zna pre nego što donese odluku.
+Ne morate da birate između Instagrama i veb-sajta - najbolje rade zajedno.
+Sajt vam daje mnogo više prostora za SEO. Možete napraviti zasebne stranice za različite usluge i teme, odgovoriti na pitanja koja ljudi pretražuju i organizovati sadržaj tako da Gugl jasno razume čime se bavite. Tako povećavate mogućnost da vas pronađu ljudi koji već traže ono što nudite.
+
+## Imate sajt, ali ne znate koliko kupaca vam donosi?
+Instalirajte analitiku i pogledajte posle mesec dana: koliko ljudi je posetilo sajt, koje stranice su gledali i koliko njih je zapravo kupilo vaš proizvod?
+Mnogi odustanu od kupovine zato što nisu dobili sve informacije na tanjiru. Nisu bili sigurni da li je to pravi izbor za njih. Nisu znali gde da kliknu. Ostali su zbunjeni, vratili se na Gugl i potražili rešenje na drugom mestu.
+
+## Ljudi vam dolaze samo preko preporuke?
+Nemate ni Instagram ni sajt, a posla ipak imate jer vas ljudi preporučuju. Onda se možda pitate: zašto mi uopšte treba sajt?
+Preporuka može da dovede osobu do vas, ali to ne znači da će vas odmah kontaktirati. Vrlo često će prvo potražiti vaše ime ili naziv biznisa na Guglu da vidi ko ste, šta nudite i da li ste pravi izbor za nju.
+Ako tamo ne pronađe dovoljno informacija, možda nikada nećete saznati da je razmišljala o kupovini.
+
+## Da li je veb-sajt dovoljan ako želim više kupaca?
+Ne. Dobar sajt može da vam pomogne da više ljudi koji ga posete razumeju ponudu, steknu poverenje i lakše odluče da kupe ili vam se jave.
+Ali neko prvo mora da dovede prave ljude na sajt. Za to su potrebni marketing, sadržaj, preporuke, oglasi, društvene mreže, SEO ili drugi kanali preko kojih vas vaša ciljna grupa pronalazi.
+Marketing dovodi prave ljude na sajt. Dobar sajt ih pretvara u kupce.
+Nazad na početnu
+Kontakt
+
+## Razmišljate o novom veb-sajtu?
+Prijavite se za besplatnu procenu.Napišite čime se bavite i koji vam je cilj.
+Besplatna procena
+Kopiraj imejlImejl kopiran
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
+
+
+============================================================
+KAKAV SAJT MI TREBA?
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+Vodič
+
+# Kakav sajt mi treba?
+Ne treba svakom biznisu isti sajt. Nekome je dovoljna jedna stranica sa najvažnijim informacijama, nekome je potrebno više stranica za različite usluge, a nekome prodavnica preko koje kupci mogu odmah da poruče proizvod.
+Izbor zavisi od toga šta nudite, koliko informacija treba da predstavite i šta želite da posetilac uradi na sajtu.
+
+## Da li mi je dovoljan sajt na jednoj stranici?
+One page sajt, odnosno sajt na jednoj stranici, može biti dovoljan ako imate jednostavnu ponudu i nije vam potrebno mnogo prostora da je objasnite.
+Sve najvažnije informacije - ko ste, šta nudite, kome je namenjeno, cena i kontakt - nalaze se na jednoj stranici kroz koju posetilac prolazi redom.
+
+## Kada mi treba sajt sa više stranica?
+Ako imate više usluga, mnogo informacija ili različite teme o kojima želite detaljnije da pišete, sajt sa više stranica daje vam više prostora da sadržaj jasno organizujete.
+Svaka važna usluga ili tema može imati svoju stranicu, što posetiocima olakšava snalaženje, a daje vam i više mogućnosti za SEO.
+
+## Kada mi treba veb-prodavnica?
+Ako želite da kupci mogu da izaberu proizvod, dodaju ga u korpu i izvrše porudžbinu ili plaćanje preko sajta, potrebna vam je veb-prodavnica.
+Možda ćete za ovu vrstu sajta naići i na izraz web shop, ili web prodavnica. Za razliku od prezentacionog sajta, čiji je glavni cilj da predstavi vašu ponudu, veb-prodavnica omogućava kupcu da obavi kupovinu direktno na sajtu.
+
+## Da li mi treba da mogu samostalno da menjam sadržaj?
+Ako želite da nakon objavljivanja sami dodajete ili menjate određeni sadržaj - na primer članke, projekte, proizvode ili cene - može vam biti potreban sajt sa CMS-om.
+CMS je sistem za upravljanje sadržajem koji vam omogućava da menjate određene delove sajta bez menjanja koda.
+
+## Da li mi treba novi sajt ili redizajn postojećeg?
+Ako već imate sajt, nije uvek potrebno početi ispočetka.
+Redizajn sajta ima smisla ako sajt izgleda zastarelo, teško se koristi, nije dobro prilagođen telefonu ili više ne predstavlja vaš biznis onako kako želite.
+Novi sajt ima više smisla kada postojeća struktura, sadržaj ili način na koji je sajt napravljen toliko ograničavaju projekat da bi njihovo popravljanje bilo komplikovanije od novog početka.
+Nazad na početnu
+Kontakt
+
+## Razmišljate o novom veb-sajtu?
+Prijavite se za besplatnu procenu.Napišite čime se bavite i koji vam je cilj.
+Besplatna procena
+Kopiraj imejlImejl kopiran
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
+
+
+============================================================
+ŠTA ČINI DOBAR SAJT?
+============================================================
+Tijana Ganić
+Radovi
+Usluge
+Kontakt
+tijanag314@gmail.com
+Vodič
+
+# Šta čini dobar veb-sajt?
+Četiri stvari po kojima se sajt koji radi za biznis razlikuje od sajta koji samo lepo izgleda.
+
+## Profesionalni izgled
+Možete imati najkvalitetniji proizvod na svetu, ali ako vaš sajt izgleda zastarelo ili neprofesionalno, ljudi mogu steći pogrešan utisak o onome što nudite.
+Vaš sajt treba da predstavi kvalitet vašeg proizvoda ili usluge i ulije poverenje potencijalnim kupcima.
+
+## Jasan i promišljen tekst
+Tekstovi na sajtu treba da budu pažljivo osmišljeni. Pišem ih jasno i sažeto, bez suvišnih objašnjenja.
+Posetiocu treba brzo da bude jasno šta nudite, kome je to namenjeno i zašto bi izabrao baš vas.
+Tekstove za vaš sajt pišem sama, nakon istraživanja ključnih reči i pitanja koja vaši potencijalni kupci kucaju na Guglu. Ne prodajem vam tekstove koje mi je besplatno napisala veštačka inteligencija.
+
+## Logičan raspored
+Ako posetilac sajta za 20 sekundi ne razume šta sajt nudi, zašto je to bitno za njega i šta treba sledeće da uradi, vaš sajt je samo lep izlog, ali ne i alat za vaš biznis.
+> Zbunjena osoba ne kupuje.
+Zato dizajniram sajtove tako da posetilac lako pronađe upravo ono zbog čega je došao. Jasna struktura, logičan tok i promišljen sadržaj daju mu odgovore koji su mu potrebni da bi doneo odluku o kupovini.
+Isto važi i kada sajt otvori na telefonu - sadržaj mora da bude pregledan, čitljiv i jednostavan za korišćenje bez obzira na veličinu ekrana.
+
+## SEO
+SEO je prilagođavanje sajta kako bi pretraživači poput Gugla mogli bolje da razumeju njegov sadržaj i prikažu ga ljudima koji traže ono što nudite.
+U okviru izrade sajta postavljam tehničku SEO osnovu. U zavisnosti od paketa, istražujem relevantne ključne reči i prema njima planiram sadržaj.
+> Dobar sajt ne vredi mnogo ako ga niko ne pronađe.
+Napomena: Ne pružam dugoročnu SEO uslugu. Ako vam je potrebno kontinuirano praćenje i rad na pozicioniranju sajta nakon objavljivanja, preporučujem saradnju sa SEO stručnjakom.
+
+Nazad na početnu
+
+Kontakt
+
+## Razmišljate o novom veb-sajtu?
+Prijavite se za besplatnu procenu.
+Napišite čime se bavite i koji vam je cilj.
+Besplatna procena
+Kopiraj imejl
+
+tijana.designs
+Tijana Ganić, veb-dizajn i izrada sajtova
+tijanag314@gmail.com
